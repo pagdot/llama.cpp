@@ -178,6 +178,8 @@ extern "C" {
                                                           // matches ciru-ai/ROCmFPX upstream (119 is their
                                                           // Q7_0_ROCMFPX, unrelated; 118/120/121 are their
                                                           // STRIX_QUALITY/LEAN/AGENT_LEAN, not ported here)
+        LLAMA_FTYPE_MOSTLY_Q4_K_M_ROCMFPX        = 123, // ROCmFP4 similar to Q4_K_M
+        LLAMA_FTYPE_MOSTLY_Q4_K_M_ROCMFPX_LEAN   = 124, // ROCmFP4_FAST similar to Q4_K_M
 
         LLAMA_FTYPE_GUESSED = 1024, // not specified in the model file
     };
